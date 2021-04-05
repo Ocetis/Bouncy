@@ -1,0 +1,52 @@
+@import 'variables';
+@import 'mixins';
+@import 'header';
+@import 'about';
+@import 'footer';
+
+
+body {
+    font-family: $font-basic; 
+}
+.main-container {
+    width: 1360px;
+    margin: auto;
+
+    .container {
+        width: 1170px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+h1 {
+    font: $h1-size $font-secondary;
+    text-transform: uppercase; 
+    letter-spacing: 7px;       
+}
+h2 {    
+    font: $h2-size $font-secondary;
+    color: $h2-color;
+    text-transform: uppercase; 
+    letter-spacing: 3px;
+}
+p {
+    font-size: $p-size;
+    color: $p-color;
+    letter-spacing: 1px;
+    strong {
+        color: $p-bold-color;
+    }
+    a {
+        color: $primary-color-1;
+        font-weight: 700;
+    }
+    a:hover, a:active {
+        color: $primary-color-1;
+        font-weight: 700;
+    }
+    a:hover {
+        text-decoration: none;
+        border-bottom: 1px solid $primary-color-1;
+    }
+}
+

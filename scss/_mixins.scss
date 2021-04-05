@@ -1,0 +1,30 @@
+/* Ссылки навбара - hover  */
+@mixin radius-link-nav {
+    border: 1px solid $primary-light;
+    border-radius: 30px;
+}
+
+
+/* Скругленная ссылка (кнопка) светлая + hover  */
+@mixin radius-link-light {
+    border: 1px solid $primary-light;
+    border-radius: 30px;
+    width: max-content;  
+    padding: 6px 30px;  
+}
+/* Скругленная ссылка (кнопка) темная + hover  */
+@mixin radius-link-dark {
+    border: 1px solid $secondary-color-dark;
+    border-radius: 30px;
+    width: max-content;
+    color: $secondary-color-dark;
+    padding: 6px 30px;
+}
+@mixin radius-link-dark-hover {
+    border: 1px solid $secondary-color-dark;
+    border-radius: 30px;
+    width: max-content;
+    color: $primary-light;
+    background-color: $primary-dark;
+    padding: 6px 30px;
+}

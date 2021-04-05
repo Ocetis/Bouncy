@@ -1,0 +1,31 @@
+header {
+    background: $header-bg;
+    min-height: 735px;
+    color: $primary-light;
+    .col-navbar {
+        padding: 0;
+    }
+    .navbar {
+        padding: 2.1rem 0;
+        .nav {
+            margin-right: -15px;
+            .nav-link {
+                color: $primary-light;
+                padding: .3rem 1rem;
+                border: 1px solid transparent;
+                &:hover {
+                  @include radius-link-nav;
+                }
+            }            
+        }
+    }
+    .header__title {
+        height: 628px;
+        padding: 220px 20px;        
+    } 
+    p {
+        color: $primary-light;
+    }   
+}
+
+

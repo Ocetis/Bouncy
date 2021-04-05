@@ -1,0 +1,15 @@
+.about {
+    background-color: $primary-light;
+    min-height: 485px;
+    .about__text-box {
+        padding-right: 65px;
+        .link-more {
+            @include radius-link-dark; 
+            margin: 30px 0;       
+        } 
+        .link-more:hover {
+            @include radius-link-dark-hover;
+        }  
+    }
+     
+}

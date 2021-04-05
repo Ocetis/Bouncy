@@ -1,0 +1,26 @@
+/* Фоны */
+$header-bg: url(../img/header-bg.jpg) no-repeat;
+
+/* Семейства шрифтов */
+$font-basic: 'Open Sans', sans-serif;
+$font-secondary: 'Source Sans Pro', sans-serif;
+
+/* Размеры шрифтов */
+$h1-size: 35px;
+$h2-size: 20px;
+$p-size: 14px;
+
+/* Базовые цвета темы */
+$primary-light: #ffffff;//основной светлый
+$primary-dark: #151517;//основной темный
+$primary-color-1: #19bd9a; //зеленый
+$primary-color-1-dark: #047378; //темно-зеленый
+$secondary-color-light: #81868e; //серый
+$secondary-color-dark: #333b46; //серый темный
+
+/* Цвета шрифтов */
+$h2-color: $secondary-color-dark;
+$p-color: #81868e;
+$p-bold-color: #636971;
+$h3-color: #464646;
+
